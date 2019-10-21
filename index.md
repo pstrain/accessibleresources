@@ -1,36 +1,15 @@
-## Welcome to GitHub Pages
+## Solitaire Original
 
-You can use the [editor on GitHub](https://github.com/pstrain/accessibleresources/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Solitaire Original is the original and best Solitaire game for macOS.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Instructions
 
-### Markdown
+The goal of Solitaire is to fill the four empty spaces at the top of the window from Ace to King. For example, the first card to place at the top is an Ace, followed by a 2, then 3, then 4 etc
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pstrain/accessibleresources/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+In the main area:
+  Only a King can only be placed on an empty space.
+  Cards must be placed in order with alternating colours - e.g. a Red 10 must be followed by a Black 9, followed by a Red 8 etc.
+  Once there are no other options, tap on the top left hand corner to reveal new cards.
 
 ### Support or Contact
 
