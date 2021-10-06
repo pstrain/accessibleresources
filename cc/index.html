@@ -184,6 +184,29 @@
 
 
 </div>
-<script async src="https://auditor.sitelint.com/auditor.bundle.js?tokenId=615c310f1ff3c2e2001d340c-ar"></script>
+<script>
+(function() {
+  const script = document.createElement('script');
+
+  script.type = 'text/javascript';
+  script.async = true;
+  script.id = 'auditor_app';
+  script.src = 'https://auditor.sitelint.com/auditor.bundle.js?tokenId=615d7de8eb00b99f538d5142-ar'
+
+  function onPageLaded() {
+    function loadSiteLintAuditor() {
+      document.head.insertBefore(script, document.head.firstChild);
+    }
+    window.setTimeout(loadSiteLintAuditor, 3500);
+  }
+
+  if (document.readyState !== 'loading') {
+    onPageLaded();
+    return;
+  }
+
+  window.addEventListener('DOMContentLoaded', onPageLaded);
+})();
+</script>
 </body>
 </html>
