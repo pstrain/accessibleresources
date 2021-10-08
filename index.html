@@ -14,13 +14,18 @@
   script.type = 'text/javascript';
   script.async = true;
   script.id = 'auditor_app';
-  script.src = 'https://auditor.sitelint.com/auditor.bundle.js?tokenId=615d7de8eb00b99f538d5142-ar'
+  script.src = 'https://auditor.sitelint.com/auditor.bundle.js?tokenId=f6ec3f6ce93bdf3463a10719b9f895a24f5591bcff3aba5eccc11224801b8b81-ar';
+  script.addEventListener('load', onAuditorLoaded);
 
   function onPageLaded() {
     function loadSiteLintAuditor() {
       document.head.insertBefore(script, document.head.firstChild);
     }
     window.setTimeout(loadSiteLintAuditor, 3500);
+  }
+    
+  function onAuditorLoaded(){
+    auditor.run();
   }
 
   if (document.readyState !== 'loading') {
